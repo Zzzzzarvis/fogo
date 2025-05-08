@@ -1,0 +1,33 @@
+# 环境变量文件 - 包含敏感信息
+.env
+
+# 依赖目录
+node_modules/
+
+# 日志文件
+swap_bot_logs.txt
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 调试文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 其他不需要版本控制的文件
+.history/
+.cache/
+coverage/
+dist/
+build/
+temp/
+tmp/ 
